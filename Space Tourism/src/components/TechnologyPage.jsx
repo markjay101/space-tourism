@@ -13,7 +13,7 @@ export default function TechnologyPage() {
     setTechnologyImgPortrait(portrait);
   }
   return (
-    <div className="technology-page container-fluid vh-100 d-flex overflow-scroll pt-5 px-0">
+    <div className="technology-page container-fluid vh-100 d-flex pt-5 px-0">
       <div className="row w-100 mt-5 mt-lg-0 pt-5 mx-auto position-relative">
         <div className="col-12 col-lg-6 d-flex justify-content-center align-items-center px-0">
           <div className="d-flex flex-column ms-0 ps-0 ms-lg-5 ps-lg-5">

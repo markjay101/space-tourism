@@ -38,7 +38,7 @@ nav ul li a {
   background-image: url("/public/assets/home/background-home-desktop.jpg");
   background-size: cover;
   font-family: barlowCondensed;
-  overflow: hidden;
+  overflow: hidden !important;
 }
 
 .landing-page h3 {
@@ -95,6 +95,7 @@ nav ul li a {
 .destination-page {
   background-image: url("/public/assets/destination/background-destination-desktop.jpg");
   background-size: cover;
+  overflow: hidden !important;
 }
 .destination-page h1,
 .crew-page h1,
@@ -162,6 +163,7 @@ nav ul li a {
 .crew-page {
   background-image: url("/public/assets/crew/background-crew-desktop.jpg");
   background-size: cover;
+  overflow: hidden !important;
 }
 .crew-page h2 {
   color: #fff;
@@ -191,6 +193,7 @@ nav ul li a {
 .technology-page {
   background-image: url("/public/assets/technology/background-technology-desktop.jpg");
   background-size: cover;
+  overflow: hidden !important;
 }
 .technology-page ul li .nav-link {
   width: 80px !important;

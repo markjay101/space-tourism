@@ -8,7 +8,7 @@ export default function DestinationPage() {
     setSelectedDestinationImg(img);
   }
   return (
-    <div className="destination-page container-fluid vh-100 d-flex overflow-scroll pt-5">
+    <div className="destination-page container-fluid vh-100 d-flex pt-5">
       <div className="row w-100 mt-5 mt-lg-0 pt-5 mx-auto">
         <div className="col-12 col-lg-6 d-flex flex-column justify-content-end justify-content-lg-center align-items-center pe-0 ps-0 pe-lg-5">
           <h1 className="text-white text-center mb-5 align-self-center align-self-sm-start align-self-md-start align-self-lg-center ms-0 ms-sm-4 ms-md-5 ms-lg-5">

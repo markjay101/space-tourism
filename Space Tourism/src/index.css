@@ -12,19 +12,36 @@
   font-family: Bellefair;
   src: url("./assets/font/Bellefair-Regular.ttf");
 }
-
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ffffff20;
+}
 @media only screen and (width < 992px) {
   .landing-page {
     background-image: url("/public/assets/home/background-home-tablet.jpg");
+    overflow-y: auto !important;
   }
   .destination-page {
     background-image: url("/public/assets/destination/background-destination-tablet.jpg");
+    overflow-y: auto !important;
   }
   .crew-page {
     background-image: url("/public/assets/crew/background-crew-tablet.jpg");
+    overflow-y: auto !important;
   }
   .technology-page {
     background-image: url("/public/assets/technology/background-technology-tablet.jpg");
+    overflow-y: auto !important;
   }
 }
 @media only screen and (width < 576px) {

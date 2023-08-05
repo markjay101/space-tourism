@@ -19,7 +19,7 @@ let carouselIndicator = crewInfo.crew.map((crew, index) => {
 
 export default function CrewPage() {
   return (
-    <div className="crew-page container-fluid vh-100 d-flex overflow-scroll pt-5">
+    <div className="crew-page container-fluid vh-100 d-flex pt-5">
       <div className="row w-100 mt-5 mt-lg-0 pt-5 mx-auto">
         <div id="carouselExampleIndicators" className="carousel slide px-0">
           <div className="carousel-indicators mb-5">{carouselIndicator}</div>
