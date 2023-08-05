@@ -1,5 +1,5 @@
-import logo from "../assets/shared/logo.svg";
-import navIcon from "../assets/shared/icon-hamburger.svg";
+import logo from "/public/assets/shared/logo.svg";
+import navIcon from "/public/assets/shared/icon-hamburger.svg";
 import { Link, useLocation } from "react-router-dom";
 
 export default function NavigationBar() {

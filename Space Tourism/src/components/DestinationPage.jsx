@@ -1,8 +1,8 @@
-import destinationInfo from "../assets/data/data.json";
+import destinationInfo from "/public/assets/data/data.json";
 import { useState } from "react";
 export default function DestinationPage() {
   const [selectedDestinationImg, setSelectedDestinationImg] = useState(
-    "./src/assets/destination/image-moon.png"
+    "/public/assets/destination/image-moon.png"
   );
   function handleClick(img) {
     setSelectedDestinationImg(img);
