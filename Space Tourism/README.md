@@ -25,11 +25,14 @@ Users should be able to:
 - View each page and be able to toggle between the tabs to see new information
 
 ### Screenshot
-
+![image](https://github.com/markjay101/space-tourism/assets/125184798/b9bccb36-63e8-4e59-a9cb-ad6c9a4eceb1)
+![image](https://github.com/markjay101/space-tourism/assets/125184798/f90c3a64-ca4c-42b7-b2c7-ee85d9f569bf)
+![image](https://github.com/markjay101/space-tourism/assets/125184798/1a4ced5e-2c26-44d0-beb4-202dd854a6d0)
+![image](https://github.com/markjay101/space-tourism/assets/125184798/4a9def5c-5c18-437f-824b-66b9b1b60118)
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3/hub)
-- Live Site URL: [Add live site URL here](https://sage-blancmange-e51f22.netlify.app/)
+- Solution URL: [My Solution (Frontend Mentor)](https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3/hub)
+- Live Site URL: [Space Tourism Website](https://sage-blancmange-e51f22.netlify.app/)
 
 ## My process
 
