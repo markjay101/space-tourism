@@ -38,7 +38,7 @@ nav ul li a {
   background-image: url("/public/assets/home/background-home-desktop.jpg");
   background-size: cover;
   font-family: barlowCondensed;
-  overflow: scroll;
+  overflow: hidden;
 }
 
 .landing-page h3 {
