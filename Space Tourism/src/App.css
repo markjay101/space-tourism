@@ -1,0 +1,305 @@
+nav {
+  font-family: barlowCondensed;
+}
+
+nav .navbar-toggler:focus,
+nav .btn-close:focus {
+  outline: none;
+  box-shadow: none;
+  border: none;
+}
+
+.offcanvas {
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(40.774227142333984px);
+}
+.navbar .logo-container {
+  width: 45%;
+}
+.navbar .line {
+  height: 1px !important;
+  left: 15%;
+  z-index: 1;
+  min-width: 90%;
+}
+/* .navbar .nav-item .nav-link,
+.navbar .nav-item a {
+  border: 2px red !important;
+  text-decoration: none !important;
+} */
+nav ul li a {
+  color: #ffffff !important;
+  letter-spacing: 2.7px;
+}
+.nav-link {
+  transition: none !important;
+}
+.landing-page {
+  background-image: url("./src/assets/home/background-home-desktop.jpg");
+  background-size: cover;
+  font-family: barlowCondensed;
+  overflow: scroll;
+}
+
+.landing-page h3 {
+  font-size: 28px;
+  letter-spacing: 4.75px;
+  color: #d0d6f9;
+}
+.landing-page h1 {
+  font-family: Bellefair;
+  color: #ffffff;
+  font-size: 10.5rem;
+}
+.text-container {
+  width: 32rem;
+}
+.landing-page .btn-circle {
+  font-family: Bellefair;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  font-size: 32px;
+  position: relative;
+  background: white;
+}
+
+.landing-page .btn-circle:before,
+.landing-page .btn-circle:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+
+.landing-page .btn-circle:hover:before {
+  -webkit-animation: ripple 2s linear infinite;
+  animation: ripple 2s linear infinite;
+}
+.landing-page .btn-circle:hover:after {
+  -webkit-animation: ripple 2s linear 1s infinite;
+  animation: ripple 2s linear 1s infinite;
+}
+
+.landing-page .btn-circle:active:before,
+.landing-page .btn-circle:active {
+  -webkit-animation: none;
+  animation: none;
+}
+
+.destination-page {
+  background-image: url("./src/assets/destination/background-destination-desktop.jpg");
+  background-size: cover;
+}
+.destination-page h1,
+.crew-page h1,
+.technology-page h1 {
+  font-family: barlowCondensed;
+  font-size: 28px;
+  letter-spacing: 4.725px;
+}
+.destination-page h1 span,
+.crew-page h1 span {
+  font-weight: 700;
+}
+.destination-page .nav-item button {
+  background-color: transparent !important;
+  color: #fff;
+  font-family: barlowCondensed;
+  font-size: 16px;
+  letter-spacing: 2.7px;
+}
+
+.destination-page .nav-tabs button:hover,
+.navbar .nav-item a:hover {
+  border-bottom: 2px solid #ffffff50 !important;
+}
+.destination-page .nav-tabs button.active,
+.navbar .nav-item a.active {
+  background-color: transparent !important;
+  color: #fff !important;
+  border-bottom: 2px solid #fff !important;
+}
+.destination-page .tab-content h2 {
+  color: #fff;
+  font-family: Bellefair;
+  font-size: 7.5rem;
+}
+.landing-page p,
+.destination-page .tab-content p,
+.crew-page p,
+.technology-page p {
+  color: #d0d6f9;
+  font-family: barlowCondensed;
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+.technology-page p,
+.crew-page p,
+.destination-page .tab-content p {
+  max-width: 480px;
+}
+.technology-page p {
+  min-height: 285px;
+}
+.destination-page .tab-content span,
+.technology-page .tab-content span {
+  color: #d0d6f9;
+  font-family: barlowCondensed;
+  font-size: 18px;
+  letter-spacing: 2.362px;
+}
+.destination-page .tab-content h3 {
+  color: #fff;
+  font-family: Bellefair;
+  font-size: 34px;
+}
+.crew-page {
+  background-image: url("./src/assets/crew/background-crew-desktop.jpg");
+  background-size: cover;
+}
+.crew-page h2 {
+  color: #fff;
+  opacity: 0.5042;
+  font-family: Bellefair;
+  font-size: 32px;
+  text-transform: uppercase;
+}
+.crew-page h3,
+.technology-page .tab-content h2 {
+  color: #fff;
+  font-family: Bellefair;
+  font-size: 56px;
+  text-transform: uppercase;
+}
+.carousel-indicators button {
+  background-color: white !important;
+  width: 20px !important;
+  height: 20px !important;
+  border-radius: 50%;
+  border: none !important;
+}
+/* .carousel-control-prev,
+.carousel-control-next {
+} */
+
+.technology-page {
+  background-image: url("./src/assets/technology/background-technology-desktop.jpg");
+  background-size: cover;
+}
+.technology-page ul li .nav-link {
+  width: 80px !important;
+  height: 80px !important;
+  border-radius: 50% !important;
+  color: #fff;
+  font-family: Bellefair;
+  font-size: 32px;
+  line-height: normal;
+  letter-spacing: 2px;
+  border: 1px solid #ffffff50 !important;
+}
+.technology-page .portrait-img img {
+  width: 40rem !important;
+}
+@media only screen and (width < 530px) {
+  .landing-page h1 {
+    font-size: 28vw !important;
+  }
+  .landing-page h3,
+  .destination-page h1,
+  .crew-page h1,
+  .technology-page h1 {
+    font-size: 5vw !important;
+  }
+  .destination-page .nav-tabs button,
+  .destination-page .tab-content span,
+  .technology-page .tab-content span {
+    font-size: 3vw !important;
+  }
+  .destination-page .tab-content h2 {
+    font-size: 22vw !important;
+  }
+  .landing-page p,
+  .destination-page .tab-content p,
+  .crew-page p,
+  .technology-page p {
+    font-size: 4vw !important;
+  }
+  .destination-page .tab-content h3 {
+    font-size: 6vw !important;
+  }
+  .crew-page h2 {
+    font-size: 6vw !important;
+  }
+  .crew-page h3,
+  .technology-page h2 {
+    font-size: 10vw !important;
+  }
+  .text-container {
+    width: fit-content !important;
+  }
+  .landing-page .btn-circle {
+    width: 55vw;
+    height: 55vw;
+    font-size: 5vw;
+  }
+  .technology-page ul li .nav-link {
+    height: 15vw !important;
+    width: 15vw !important;
+    font-size: 5vw;
+  }
+}
+
+@media only screen and (width < 992px) {
+  .destination-page .tab-content p,
+  .technology-page .tab-content p,
+  .crew-page p {
+    text-align: center;
+    max-width: 100%;
+  }
+}
+@media only screen and (width < 576px) {
+  .destination-page img,
+  .crew-page .carousel-item img {
+    width: 80%;
+  }
+  .crew-page .carousel-item .img-on-sm {
+    border-bottom: 2px solid #ffffff50 !important;
+  }
+  .crew-page .carousel-item .img-on-sm img {
+    width: 50% !important;
+  }
+}
+/* Ripple Animiation */
+@-webkit-keyframes ripple {
+  0% {
+    -webkit-transform: scale(1);
+  }
+  75% {
+    -webkit-transform: scale(1.75);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(2);
+    opacity: 0;
+  }
+}
+
+@keyframes ripple {
+  0% {
+    transform: scale(1);
+  }
+  75% {
+    transform: scale(1.75);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
