@@ -35,7 +35,7 @@ nav ul li a {
   transition: none !important;
 }
 .landing-page {
-  background-image: url("./src/assets/home/background-home-desktop.jpg");
+  background-image: url("/public/assets/home/background-home-desktop.jpg");
   background-size: cover;
   font-family: barlowCondensed;
   overflow: scroll;
@@ -93,7 +93,7 @@ nav ul li a {
 }
 
 .destination-page {
-  background-image: url("./src/assets/destination/background-destination-desktop.jpg");
+  background-image: url("/public/assets/destination/background-destination-desktop.jpg");
   background-size: cover;
 }
 .destination-page h1,
@@ -160,7 +160,7 @@ nav ul li a {
   font-size: 34px;
 }
 .crew-page {
-  background-image: url("./src/assets/crew/background-crew-desktop.jpg");
+  background-image: url("/public/assets/crew/background-crew-desktop.jpg");
   background-size: cover;
 }
 .crew-page h2 {
@@ -189,7 +189,7 @@ nav ul li a {
 } */
 
 .technology-page {
-  background-image: url("./src/assets/technology/background-technology-desktop.jpg");
+  background-image: url("/public/assets/technology/background-technology-desktop.jpg");
   background-size: cover;
 }
 .technology-page ul li .nav-link {

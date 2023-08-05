@@ -1,11 +1,11 @@
-import technologyInfo from "../assets/data/data.json";
+import technologyInfo from "/public/assets/data/data.json";
 import { useState } from "react";
 export default function TechnologyPage() {
   const [technologyImgPortrait, setTechnologyImgPortrait] = useState(
-    "../assets/technology/image-launch-vehicle-portrait.jpg"
+    "/public/assets/technology/image-launch-vehicle-portrait.jpg"
   );
   const [technologyImgLandscape, setTechnologyImgLandscape] = useState(
-    "../assets/technology/image-launch-vehicle-landscape.jpg"
+    "/public/assets/technology/image-launch-vehicle-landscape.jpg"
   );
 
   function handleClick(portrait, landscape) {

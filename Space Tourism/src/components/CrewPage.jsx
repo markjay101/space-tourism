@@ -1,4 +1,4 @@
-import crewInfo from "../assets/data/data.json";
+import crewInfo from "/public/assets/data/data.json";
 
 let carouselIndicator = crewInfo.crew.map((crew, index) => {
   let className = index == 0 ? "active mx-3" : "mx-3";
